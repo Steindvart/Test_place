@@ -11,6 +11,8 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <memory>
+#include <exception>
 
 #endif // !SKIP_PRECOMPILED_HEADERS
 

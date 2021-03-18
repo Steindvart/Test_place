@@ -18,6 +18,7 @@ public:
 		std::swap(m_f, other.m_f);
 	}
 
+	ScopeGuard() = delete;
 	ScopeGuard(const ScopeGuard&)            = delete;
 	ScopeGuard& operator=(const ScopeGuard&) = delete;
 

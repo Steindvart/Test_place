@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{143e6e5d-2286-480e-87f8-990a656a9121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools\Templates">
+      <UniqueIdentifier>{7cb39ce3-e6ce-44ac-9623-a8b921e7d9d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -25,6 +31,15 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\List.h">
+      <Filter>Header Files\Tools\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Unique_ptr.h">
+      <Filter>Header Files\Tools\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ScopeGuard.h">
+      <Filter>Header Files\Tools</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
